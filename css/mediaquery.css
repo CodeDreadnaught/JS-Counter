@@ -1,0 +1,54 @@
+@media screen and (min-width: 200px) and (max-width: 679px) {
+    .counter-wrapper {
+        height: 320px !important;
+        width: 320px !important;
+    }
+    .counter-display {
+        font-size: 7em !important;
+        top: 10px !important;
+    }
+    .divider {
+        top: 148px !important;
+    }
+    .reset, .increase, .decrease {
+        font-size: 1em !important;
+    }
+    .reset {
+        top: 165px !important;
+        left: 41% !important;
+        width: 60px !important;
+        height: 32px !important;
+    }
+    .increase, .decrease {
+        width: 50px !important;
+        height: 35px !important;
+        top: 215px !important;
+    }
+    .increase {
+        left: 20% !important;
+    }
+    .decrease {
+        right: 20% !important;
+    }
+    .reset:active {
+        top: 150px !important;
+    }
+    .increase:active {
+        top: 195px !important;
+    }
+    .decrease:active {
+        top: 235px !important;
+    }
+    .counter-range {
+        width: 80px !important;
+    }
+    .counter-range input::placeholder {
+        font-size: 0.85em !important;
+    }
+    .repeat-display {
+        left: 220px !important;
+        bottom: 320px !important;
+        width: 80px !important;
+        height: 80px !important;
+    }
+}
